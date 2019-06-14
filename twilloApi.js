@@ -2,10 +2,10 @@ const twilio = require('twilio');
 
 
 const client = twilio(
-    process.env.twilloId,
-    process.env.twilloSecret
+    "Put twilloId here",
+    "Put twilloSecret"
 );
-
+console.log(process.env.twilloId)
 
 module.exports = (response,sender)=> {
  client.messages

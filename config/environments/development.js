@@ -6,7 +6,7 @@ module.exports = {
     privateKey: ``,
     clientEmail: "",
     languageCode: "en-US",
-    twilloId: "",
-    twilloSecret: ""
+    twilloId: /* put value in twilloApi.js*/'and remove these two field from here',
+   twilloSecret:   /*put value in twilloApi.js*/'',
   
 };
